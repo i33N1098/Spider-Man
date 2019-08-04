@@ -1,0 +1,11 @@
+.animate-1{
+	animation-name: miles;
+	animation-duration: 2s;
+}
+
+@keyframes miles{
+	from { opacity: 0;
+	width: 0px; }
+	to { opacity: 1;
+	width: 400px; }
+}
