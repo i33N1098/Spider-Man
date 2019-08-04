@@ -1,0 +1,66 @@
+h1 {
+	color: steelBlue;
+}
+
+body {
+background-color: #ccffcc;
+}
+
+.navigation_menu ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: black;
+}
+
+.navigation_menu li {
+	float: left;
+	font-size: 30px;
+}
+
+.navigation_menu a {
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: black;
+	color: white;
+}
+
+.navigation_menu .active {
+	background-color: green;
+	font-weight : bold;
+}
+.jumbotron {
+	background-color: white;
+	color: #86b0f4;
+}
+
+.jumbotron * {
+	padding-left: 50px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	padding: 0px 20px 0px 20px;
+	box-shadow: 0px 8px 16px 0px;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
